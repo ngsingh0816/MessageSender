@@ -13,6 +13,7 @@
 		286B91971D763EC100E04823 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 286B91951D763EC100E04823 /* MainMenu.xib */; };
 		286B91A21D763EC100E04823 /* MessageSenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286B91A11D763EC100E04823 /* MessageSenderTests.m */; };
 		286B91AD1D763EC100E04823 /* MessageSenderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 286B91AC1D763EC100E04823 /* MessageSenderUITests.m */; };
+		286B91BF1D76416F00E04823 /* TableWindow.mm in Sources */ = {isa = PBXBuildFile; fileRef = 286B91BE1D76416F00E04823 /* TableWindow.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		286B91A81D763EC100E04823 /* MessageSenderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MessageSenderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		286B91AC1D763EC100E04823 /* MessageSenderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageSenderUITests.m; sourceTree = "<group>"; };
 		286B91AE1D763EC100E04823 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		286B91BD1D76416F00E04823 /* TableWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableWindow.h; sourceTree = "<group>"; };
+		286B91BE1D76416F00E04823 /* TableWindow.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TableWindow.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 		286B918C1D763EC100E04823 /* MessageSender */ = {
 			isa = PBXGroup;
 			children = (
+				286B91BD1D76416F00E04823 /* TableWindow.h */,
+				286B91BE1D76416F00E04823 /* TableWindow.mm */,
 				286B918D1D763EC100E04823 /* AppDelegate.h */,
 				286B918E1D763EC100E04823 /* AppDelegate.m */,
 				286B91931D763EC100E04823 /* Assets.xcassets */,
@@ -263,6 +268,7 @@
 			files = (
 				286B91921D763EC100E04823 /* main.m in Sources */,
 				286B918F1D763EC100E04823 /* AppDelegate.m in Sources */,
+				286B91BF1D76416F00E04823 /* TableWindow.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
